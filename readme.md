@@ -25,7 +25,6 @@ php artisan vendor:publish --provider="Yabloncev\Giftery\ServiceProvider"
 ```
 
 ## Get Status
-## Get Status
 
 ```php
  Giftery::getStatus($id);
