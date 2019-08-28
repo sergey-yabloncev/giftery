@@ -1,0 +1,36 @@
+{
+  "name": "sergey-yabloncev/giftery",
+  "description": "pay phone number using giftery service",
+  "version": "1.0.0",
+  "keywords": [
+    "giftery",
+    "laravel"
+  ],
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "require": {
+    "guzzlehttp/guzzle": "^6.3",
+    "illuminate/support": "^5.8|^6.0"
+  },
+  "authors": [
+    {
+      "name": "Yabloncev Sergey",
+      "email": "sergey.yabloncev@yandex.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Yabloncev\\Giftery\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Yabloncev\\Giftery\\ServiceProvider"
+      ],
+      "aliases": {
+        "Giftery": "Yabloncev\\Giftery\\Facade"
+      }
+    }
+  }
+}
