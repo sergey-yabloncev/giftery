@@ -16,16 +16,16 @@ Copy the package config to your local config with the publish command:
 php artisan vendor:publish --provider="Yabloncev\Giftery\ServiceProvider"
 ```
 
-# Two methods available
+## Two methods available
 
-## Paying phone
+### Paying phone
 
 ```php
- Giftery::makeTopUp($phone-number);
+Giftery::makeTopUp($phone-number);
 ```
 
-## Get Status
+### Get Status
 
 ```php
- Giftery::getStatus($id);
+Giftery::getStatus($id);
 ```
