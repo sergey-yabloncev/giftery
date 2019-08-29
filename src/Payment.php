@@ -6,8 +6,6 @@ use GuzzleHttp\Client;
 
 /**
  * Class Payment
- *
- * @package Yabloncev\Giftery
  */
 class Payment
 {
@@ -42,7 +40,7 @@ class Payment
                 'data' => json_encode($data),
                 'id' => config('giftery.id'),
                 'sig' => $this->signature($method, $data),
-            ],])->getBody();
+            ], ])->getBody();
 
         return json_decode($response, true);
     }

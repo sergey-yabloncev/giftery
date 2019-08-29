@@ -1,0 +1,19 @@
+<?php
+
+$finder = PhpCsFixer\Finder::create()->in(__DIR__);
+
+return PhpCsFixer\Config::create()
+    ->setRules([
+        '@Symfony' => true,
+        'linebreak_after_opening_tag' => true,
+        'yoda_style' => false,
+        'phpdoc_summary' => false,
+        'concat_space' => false,
+        'array_syntax' => ['syntax' => 'short'],
+        'increment_style' => ['style' => 'post'],
+        'concat_space' => ['spacing' => 'one'],
+        'phpdoc_no_empty_return' => false,
+        'phpdoc_align' => false,
+        'phpdoc_add_missing_param_annotation' => true,
+    ])
+    ->setFinder($finder);
