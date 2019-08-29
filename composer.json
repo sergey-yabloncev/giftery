@@ -7,7 +7,6 @@
     "laravel"
   ],
   "license": "MIT",
-  "minimum-stability": "dev",
   "require": {
     "guzzlehttp/guzzle": "^6.3",
     "illuminate/support": "^5.8|^6.0"
