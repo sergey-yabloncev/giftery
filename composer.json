@@ -1,12 +1,13 @@
 {
   "name": "sergey-yabloncev/giftery",
   "description": "pay phone number using giftery service",
-  "version": "1.0.0",
   "keywords": [
     "giftery",
     "laravel"
   ],
   "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
     "guzzlehttp/guzzle": "^6.3",
     "illuminate/support": "^5.8|^6.0"
